@@ -1,0 +1,19 @@
+.twitter-fave {
+  background-image: url(./heart.png);
+  background-position: left 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  top: -100%;
+  left: -100%;
+}
+
+.twitter-fave.fave-ani {
+  background-position: right 0;
+  transition: background-position 1s steps(28);
+}
+
+.twitter-fave.fave-hover {
+
+}
